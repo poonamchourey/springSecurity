@@ -1,0 +1,6 @@
+by default when we add spring.security properties in build .gradle file it pop up the credential field in the UI while accessing any kind of API.
+Lets say we want to use Oath2.0 then we have to add the oath2.0 dependenci and implementation then it will override the default login.
+Login ways:
+While running the application you can see the password in ui use that
+We can provide out own username password in the .properties file.
+We can implement password encode through our java classes also.
